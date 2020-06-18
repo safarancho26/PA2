@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width-device-width, initial-scale_1.0">
+<link rel="stylesheet" type="text/css" href="css/estilo_curriculum_workit.css">
+<link rel="shortcut icon" href="images/logo.png">
+<script type="text/javascript"src="javascript/escript_inicio.js"></script>
+<head>
+	<title>Registrar_curriculum</title>
+</head>
+<header>
+</header>
+<body background="images/backgroundworkit.png">
+	<main class="formulario">
+				<h1>completa tu curriculum</h1>
+				<p>tu tarjeta de presentacion para las empresas es algo muy importante con ella tiene una idea de tí</p>
+			<form action="workit.html" method="get">
+				<h2>Informacion personal</h2>
+				<label for="FName" >Nombre: </label>
+				<input type="text" id="FName" name="FName" placeholder="Ingrese su primer nombre" required="">
+				<br>
+				<label for="LName" >Apellido:</label>
+				<input type="text" id="LName" name="LName" placeholder="Ingrese su Apellido" required="">
+				<br>
+				<label for="paisOrigen">Pais de origen</label>
+				<select id="paisOrigen">
+					<option id="1"disabled="1"> seleccione un país</option>
+					<option id="HND" value="Honduras">Honduras</option>
+					<option id="FRC" value="Francia">Francia</option>
+					<option id="USA" value="Estados Unidos">Estados Unidos de America</option>
+					<option id="ENG" value="REINO UNIDO"> Reino Unido</option>
+					<option id="AUS" value="AUSTRALIA">Australia</option>
+					<option id= "OTH">OTROS</option>
+				</select>
+				<br>
+				<label id for="start">nacimiento:</label>
+				<input type="date" id="date" name="trip-start"
+       			value="2018-07-22"
+       			min="2018-01-01" max="2018-12-31">
+			<br>
+			
+		</div>
+		<br>
+		<h2>contacto</h2>
+			<label>
+			 direccion de correo electronico 
+			</label>
+				<br>
+				<input type="text" id ="NickName" name="NickName" placeholder="Dirrecion de correo electronico" required="">
+				<br>
+				<br>
+				<input type="text" id = "telefono" name="telefono" placeholder="telefono/movil" required="">
+				<br>
+				<br>
+				<input type="textfield" id="formacion"name="formacion_academica" placeholder="formacion_academica" required="">
+				<br>
+				<br>
+				<input type="textfield" id="especial"name="especializacion" placeholder="especializacion" required="">
+				<br>
+				<label for="lugareslaborales"> lugares/empresas donde a laborado</label>
+				<textarea type="textfield" id="lab"name="lugareslaborales" placeholder="lugares/empresas"></textarea> 
+				<br>
+				
+				<label>referencias profecionales</label>
+				<br>
+				<input type="text" name="referenciaspro" placeholder="referencias/profecionales" required="" >
+				<br>
+				<br>
+				<input type="text" name="referenciaspro" placeholder="referencias/profecionales">
+				<br>
+				<br>
+				<input type="text" name="referenciaspro" placeholder="referencias/profecionales">
+				<br><br><input type="submit" value="Submit" class="Submit" >
+				
+			</form>
+			
+	</main>
+	<footer class="pie">
+		HECHO POR JOSHUA ZAVALA</footer>
+		<div id="error"></div>
+</body>
+</html>

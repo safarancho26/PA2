@@ -1,0 +1,125 @@
+
+/**
+ estilos de formulario de creacion de correo
+ electronico
+
+**/
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	height:50% ;
+	background-color:lightblue;
+	color:white;
+	width: 100%;
+	line-height:50px;
+}
+header img{
+	padding: 0 25px;
+}
+.formulario h2{
+	color:lightblue;
+}
+.formulario{
+	width: 700px;
+	background:#fff;
+	margin: auto;
+	margin-top: 75px; 
+	margin-bottom:75px; 
+	border-radius: 4px;
+	font-family:'calibrí';
+	opacity: 78%; 
+}
+.formulario input{
+	padding: 0 25px
+}
+.formulario label{
+	padding: 0 10px
+}
+.formulario img{
+	float: right;
+}
+.info_personal{
+	display: inline-block;
+	width: 100%;
+	padding: 100px 150px;	
+}
+.direccion{
+	display: inline-block;
+	
+	width: 100%;
+	padding: 100px 150px;
+}
+
+.seguridad{
+	display: inline-block;
+	
+	width: 100%;
+	padding: 100px 150px;
+	
+}
+.seguridad label{
+	color: grey;
+}
+.verificacion{
+	display: inline-block;
+	
+	width: 100%;
+	padding: 100px 150px;
+}
+.verificacion label{
+	color: grey;
+}
+.pie{
+	height:50% ;
+	background-color:lightblue;
+	color:white;
+	width: 100%;
+	line-height:50px;
+	opacity: 78%;
+}
+
+
+
+/**
+ estilos de formulario de creacion de correo
+ electronico
+
+**/
+
+
+/**
+estilos de formulario de inicio de sesion 
+
+**/
+.inicio{
+	width: 700px;
+	background:#fff;
+	margin: auto;
+	margin-top: 75px; 
+	margin-bottom:75px; 
+	border-radius: 4px;
+	font-family:'calibrí';
+	opacity: 78%
+}
+.inicio .inicio_sesion{
+	width: 250%;
+	padding: 100px 150px;
+	margin-bottom: 10px;
+}
+.inicio_sesion >input{
+	width:25%;
+	height: 50%;
+	padding: 0 25px; 
+}
+/**
+estilos de formulario de inicio de sesion 
+
+**/
